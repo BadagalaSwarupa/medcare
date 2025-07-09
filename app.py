@@ -1,5 +1,4 @@
 print("Starting Flask App...")
-
 from flask import Flask, request, jsonify, session, render_template, redirect, url_for, flash
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime, timedelta
